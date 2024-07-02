@@ -11,16 +11,16 @@ import SwiftUI
 
 public extension Addons {
     @Addon
-    struct GoogleSignIn<Root: RootRegistry> {
+    struct FacebookSignIn<Root: RootRegistry> {
         
         public enum TagName: String {
-            case googleSignInButton = "GoogleSignInButton"
+            case facebookSignInButton = "FacebookSignInButton"
         }
         
         public static func lookup(_ name: TagName, element: ElementNode) -> some View {
             switch name {
-            case .googleSignInButton:
-                GoogleSignInButton<Root>()
+            case .facebookSignInButton:
+                FacebookSignInButton<Root>()
             }
         }
     }
