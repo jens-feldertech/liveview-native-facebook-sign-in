@@ -19,7 +19,7 @@ struct FacebookSignInButton<Root: RootRegistry>: View {
     
     func handleSignInButton() {
         let loginManager = LoginManager()
-        loginManager.logIn(permissions: [.publicProfile, .email], from: nil) { result, error in
+        loginManager.logIn(permissions: ["public_profile", "email"], from: nil) { result, error in
             guard error == nil else { return }
             guard let result = result, !result.isCancelled else { return }
 
