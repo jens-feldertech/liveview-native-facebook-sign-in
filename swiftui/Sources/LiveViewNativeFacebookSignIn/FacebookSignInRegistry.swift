@@ -1,10 +1,3 @@
-//
-//  File.swift
-//
-//
-//  Created by Michael St Clair on 5/16/24.
-//
-
 import LiveViewNative
 import LiveViewNativeStylesheet
 import SwiftUI

@@ -1,11 +1,4 @@
-//
-//  File.swift
-//
-//
-//  Created by Michael St Clair on 5/16/24.
-//
-
-import SwiftUI
+mport SwiftUI
 import LiveViewNative
 import FacebookLogin
 
